@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Pacifico&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'Pacifico', cursive;
+    box-sizing: border-box;
+    
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: lightgreen;
+}
+
+.main{
+    width: 100%;
+    
+}
+
+#nav{
+    padding: 0.5vw 10vw;
+    /* margin: 2px; */
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(156, 148, 148, 0.692);
+
+
+}
+
+#nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#nleft{
+    display: flex;
+    gap: 13px;
+   
+}
+
+#mainpage{
+    color: black;
+    width: 100%;
+    max-height: 100vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#textarea{
+    background-color: aquamarine;
+    border: none;
+    border-radius: 10px;
+    resize: none;
+    padding: 8px;
+}
+textarea::placeholder{
+    color: rgb(14, 11, 11);
+    font-size: 20px;
+    
+}
+
+
+#ides{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    background-color: lightgreen;
+    text-transform: capitalize;
+}
